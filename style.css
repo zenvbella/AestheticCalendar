@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .calendar {
+    background-color: #d9d9d9;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 2px blue;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: solid 2px red;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    border: solid 2px rgb(64, 96, 16);
+  }
+  
+  .day-header, .day {
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 2px plum;
+  }
+  
+  .day {
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
