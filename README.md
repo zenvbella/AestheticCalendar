@@ -1,3 +1,3 @@
-# Animal Crossing Calendar
+# Aesthetic Calendar
 
-Calendar with Animal Crossing themed UI that is suited for each month
+Calendar with aesthetic UI and themes for each month
