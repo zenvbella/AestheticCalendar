@@ -88,4 +88,3 @@ function addTask(day, month, year) {
   // Call loadTasks() after rendering the calendar
   renderCalendar(currentDate);
 //   loadTasks();
-  

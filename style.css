@@ -1,16 +1,24 @@
-body {
+  body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff;
+    justify-content: space-around;
+    margin: 2rem;
   }
-  
+
+  .container {
+    background-color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    justify-content: top;
+    align-items: flex-start;
+    padding: 3rem;
+    border: solid 1px rgb(41, 155, 255);
+  }
+
   .calendar {
-    background-color: #d9d9d9;
+    max-width: 500px;
+    background-color: rgb(134, 199, 255);
     padding: 30px;
     border-radius: 10px;
-    border: solid 2px blue;
   }
   
   header {
@@ -18,14 +26,12 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border: solid 2px red;
   }
   
   .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
-    border: solid 2px rgb(64, 96, 16);
   }
   
   .day-header, .day {
@@ -33,7 +39,6 @@ body {
     padding: 10px;
     border-radius: 4px;
     background-color: #ffffff;
-    border: solid 2px plum;
   }
   
   .day {
